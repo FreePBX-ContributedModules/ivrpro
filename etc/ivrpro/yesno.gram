@@ -1,0 +1,8 @@
+#ABNF 1.0;
+mode voice;
+language en-US;
+
+root $yesorno;
+$yes = (yes $GARBAGE|yep|yeah|sure|correct):"yes";
+$no = (no $GARBAGE|nope):"no";
+$yesorno = ($yes|$no) {$=$$};

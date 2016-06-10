@@ -1,0 +1,31 @@
+<module>
+	<rawname>ivrpro</rawname>
+	<name>IVR Pro</name>
+	<version>2.11.2</version>
+	<publisher>Schmoozecom.com</publisher>
+	<license>AGPLv3</license>
+	<licenselink>http://www.gnu.org/licenses/agpl-3.0.txt</licenselink>
+	<description>The IVR Pro Module for your PBX is an advanced module that acts as an  extension to the existing IVR module. The extended capabilities allow you to empower your IVR.s with speech recognition. The configuration options include advanced failover capabilities to handle unknown input and timeout situations. The failover capabilities are fully customizable and can be used in conjunction with DTMF input as required.  </description>
+	<repo>contributed</repo>
+	<type>Applications</type>
+	<category>Applications</category>
+	<depends>
+    <version>2.10</version>
+	</depends>
+	<changelog>
+		*2.11.2* Remove en_US Translations
+		2.11.1 Open source the module
+		2.11.0.1-3 PBXAC-18
+		2.11.0.0 Bump for 2.11
+		2.10.0.22 Fix directdial and handle keypress better
+		2.10.0.21 Fix issue where timeout wasn't being set on a specific speechbackground
+		2.10.0.20 Packaging of ver 2.10.0.20
+		2.10.0.19 Packaging of ver 2.10.0.19
+		2.10.0.18 Packaging of ver 2.10.0.18
+	</changelog>
+	<supported>
+		<version>2.10</version>
+	</supported>
+	<location>release/2.11/ivrpro-2.11.0.3.tgz</location>
+	<md5sum>587ca3f87f737d8be9b5c73944ca400a</md5sum>
+</module>
